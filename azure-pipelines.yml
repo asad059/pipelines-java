@@ -20,5 +20,8 @@ jobs:
   - script: |
       echo "Displaying the contents of a build file:"
       pwd
-      ls target/
+      cd /home/vsts/work/1/s
+      ls
+      echo "Displaying the contents ls"
+      ls /home/vsts/work/1/s
     displayName: 'Display Build Output'
