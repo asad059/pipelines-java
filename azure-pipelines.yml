@@ -19,5 +19,6 @@ jobs:
       goals: 'clean package'
   - script: |
       echo "Displaying the contents of a build file:"
+      pwd
       ls target/
     displayName: 'Display Build Output'
