@@ -23,5 +23,5 @@ jobs:
       cd /home/vsts/work/1/s
       ls
       echo "Displaying the contents ls"
-      ls /home/vsts/work/1/s
+      ls /home/vsts/work/1/s/target
     displayName: 'Display Build Output'
